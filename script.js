@@ -6,3 +6,5 @@ funtion login()
   {
     window.open(" home.html ")
     document.getElementbyId(compiler).style.display=" block "
+  }
+}
