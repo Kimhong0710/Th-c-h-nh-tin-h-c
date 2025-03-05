@@ -5,9 +5,11 @@
 </head>
 <body>
   <form>
-    <label> Tên đăng nhập: </label> <input type="text" id="username" name="username"> <br>
-     <label> Password: </label> <input type="password" id="pw" name="pw"> <br>
-    <button type="submit" id="ok" name="ok" onclick=login()> ĐĂNG NHẬP </button>
+    <label>Họ và tên:<input type="text" name="txtTen">
+    </label><br>
+    <label>Ý kiến đóng góp:<textarea name="txtComment" rows="6" cols="40">
+      </textarea></label>
+    
   </form>
   <script scr="script.js"> </script>
   </body>
